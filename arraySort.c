@@ -15,7 +15,7 @@ int main()
 
 void sort(int num[], int index)
 {
-int i, j, temp;
+register int i, j, temp;
 
     for (i = 0; i < index; i++)                                     
     {
