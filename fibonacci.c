@@ -1,10 +1,11 @@
 #include<stdio.h>
+    int n, a=0 , b=1 , c, count=1;
 int main()
 {
-    int n, a=0 , b=1 , c, count=0;
+
     printf("Enter Number Of Terms");
     scanf("%d", &n);
-    printf("%d \n",a);
+    printf("%d ",a);
     do
     {
     count+=1;
